@@ -10,26 +10,16 @@ C
 C
       PARAMETER (ZERO=0.0D0,ONE=1.0D0, TWO=2.0D0, THREE=3.0D0, 
      1    FOUR=4.0D0, FIVE=5.0D0)
-C      
-      C10 = PROPS(1) 
-      C01 = PROPS(2)
-      C20 = PROPS(3)
 C
-      U=C01*BI2**(ONE/TWO)-C10*LOG(-(BI1-C20)/(C20-THREE))
-      UI1(1)=-C10/(BI1-C20)
-      UI1(2)=C01/(TWO*BI2**(ONE/TWO))
-      UI1(3)=ZERO      
-      UI2(1)=C10/(BI1-C20)**TWO
-      UI2(2)=-C01/(FOUR*BI2**(THREE/TWO))
-      UI2(3)=ZERO
-      UI2(4)=ZERO
-      UI2(5)=ZERO
-      UI2(6)=ZERO
-      UI3(1)=ZERO
-      UI3(2)=ZERO
-      UI3(3)=ZERO
-      UI3(4)=ZERO
-      UI3(5)=ZERO
-      UI3(6)=ZERO
+C
+C
+C
+C
+     REMOVED FOR CONFIDENTIALITY
+C
+C
+C
+C
+C
       RETURN
       END
