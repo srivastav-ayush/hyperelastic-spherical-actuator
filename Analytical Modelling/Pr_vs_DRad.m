@@ -1,22 +1,16 @@
 %%%%% Internal Pressure and Deformed Inner Radius %%%%%
-P = [0.01	0.03	0.05	0.08	0.1	0.12	0.14 ...
-   	0.16	0.18	0.2];
-Def_R = [5.01E-01	5.04E-01	5.07E-01	5.12E-01 ...
-    5.16E-01	5.21E-01	5.28E-01	5.36E-01 ...
-    5.49E-01	5.72E-01];
+P = [Removed for Confidentiality];
 
-
+Def_R = [Removed for Confidentiality];
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%% Exponential Curve Fitting %%%%%%%%%%%%%%%
-a = 0.4993;
-b = 0.2781;
-c = 0.0001481;
-d = 28.45;
-x = [0 0.01	0.03	0.05	0.06	0.08	0.1	0.12	0.14 ...
-    0.15	0.16	0.18	0.2];
+a = Removed for Confidentiality;
+b = Removed for Confidentiality;
+c = Removed for Confidentiality;
+d = Removed for Confidentiality;
+x = [Removed for Confidentiality];
 y = a*exp(b*x) + c*exp(d*x);
-
 plot(x,y)
 hold on
 plot(P,Def_R,'o')
